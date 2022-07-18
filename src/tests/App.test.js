@@ -4,7 +4,7 @@ import React from 'react';
 import { createMemoryHistory } from 'history';
 import { Router } from 'react-router-dom';
 import App from '../App';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../utils/renderWithRouter';
 
 describe('Teste se o topo da aplicação contém um conjunto fixo de links de navegação:',
   () => {

@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react';
 import React from 'react';
 import App from '../App';
-import renderWithRouter from '../services/renderWithRouter';
+import renderWithRouter from '../utils/renderWithRouter';
 
 const texto1 = 'This application simulates a Pokédex, a digital'
   + ' encyclopedia containing all Pokémons';
